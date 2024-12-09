@@ -1,0 +1,29 @@
+.homepage {
+    background: url('../assets/coffee-machine-making-perfect-cup-coffee.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+.homepage h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+
+}
+
+.homepage p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+
+}
+
+.homepage .btn-primary {
+    background-color: #6f4e37;
+    border: none;
+}
+
+.homepage .btn-primary:hover {
+    background-color: #5a3e2a;
+}

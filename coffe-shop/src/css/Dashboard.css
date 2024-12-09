@@ -1,0 +1,32 @@
+.dashboard {
+    background: url('../assets/coffee-machine-making-perfect-cup-coffee.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    /* Sayfa yüksekliğini kapsaması için */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.4);
+    /* Şeffaflık oranını %40'a çekiyoruz */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* Sınırları da şeffaf yapıyoruz */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Hafif gölge */
+    transition: background-color 0.3s, box-shadow 0.3s ease;
+    /* Hover'da animasyon */
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Hover ile arka plan biraz daha opak hale gelir */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    /* Hover ile gölge daha belirgin hale gelir */
+}
