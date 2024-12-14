@@ -10,7 +10,6 @@ function HomePage() {
                 <p className="lead mt-3 mb-5">
                     Discover the best coffee blends from around the world. Start your day with the perfect cup!
                 </p>
-
             </Container>
         </div>
     );

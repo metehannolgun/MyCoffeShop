@@ -3,8 +3,8 @@ import './App.css';
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import Dashboard from './components/Dashboard';
-import Cart from './components/Cart';
 import RootLayout from './components/RootLayout';
+import ProductDetails from './components/ProductDetails';
 
 function App() {
   const router = createBrowserRouter(
@@ -13,7 +13,7 @@ function App() {
         {/* HomePage varsayılan rota */}
         <Route index element={<HomePage />} />
         <Route path="dashboard/:category" element={<Dashboard />} />
-        <Route path="cart" element={<Cart />} />
+        <Route path="product/:id" element={<ProductDetails />} />
       </Route>
     )
   );

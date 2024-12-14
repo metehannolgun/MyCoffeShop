@@ -1,0 +1,43 @@
+/* NavBarPanel.css */
+
+.navbar {
+    background: #333333;
+    /* Dark background color */
+    color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-menu li {
+    display: inline;
+}
+
+.navbar-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.navbar-menu a:hover {
+    color: #ffab00;
+    /* Amber color on hover */
+}
+
+.navbar-logo::before {
+    content: url('path/to/your/icon.png');
+    margin-right: 10px;
+    vertical-align: middle;
+}

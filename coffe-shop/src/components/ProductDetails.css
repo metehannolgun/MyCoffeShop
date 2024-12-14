@@ -1,0 +1,9 @@
+.product-details-page {
+    background: url('../assets/coffee-machine-making-perfect-cup-coffee.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
